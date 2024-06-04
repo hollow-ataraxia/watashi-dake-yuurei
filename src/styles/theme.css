@@ -1,0 +1,10 @@
+:root {
+  --background-color: oklch(0% 0 0);
+  --text-color: oklch(100% 0 0);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: oklch(100% 0 0);
+  }
+}
